@@ -1,14 +1,14 @@
 <?php
 /*
----------------{@ABoTaim}------------
+---------------{@ACM_105}------------
 
-~ تغير حقوق تدل على علامة فشلك :)
+~( @ACM_105 :)
 
-• By : @ABoTaim
-• Ch : @Watan_e
-• Tw : @AboTaim_SYBot
+• By: @ACM_105
+• Ch : @ACM_105
+• Tw : @ACM_105
 
----------------{@ABoTaim}------------
+---------------{@(@ACM_105}------------
 */
 ob_start();
 $token = 'token';
@@ -40,11 +40,11 @@ if(isset($update->callback_query)){
   $data     = $update->callback_query->data;
  $user = $update->callback_query->from->username;
 }
-$admin = 457270911; // ايديك
-$UserBot = "YG0Bot"; // معرف بوتك بدون @
+$admin = 5733560255; // ايديك
+$UserBot = "hbzhbsbot"; // معرف بوتك بدون @
 $me = bot('getme',['bot'])->result->username;
 $sales = json_decode(file_get_contents('sales.json'),1);
- $T4TTTT = 457270911; //ايديك
+ $T4TTTT = 5733560255; //ايديك
 $SAIED = file_get_contents("SAIED.txt");
 $SAIED5 = file_get_contents("SAIED2.txt");
 $SAIED6 = file_get_contents("SAIED3.txt");
@@ -343,8 +343,8 @@ bot('EditMessageText',[
     bot('sendMessage',[
      'chat_id'=>$ex[1] ,
      'text'=>"
-🔘 لقد قام بالدخول الى الرابط الخاص بك : 
-💰 : حصلت على نقطة واحدة 
+⭐🔘 لقد قام بالدخول الى الرابط الخاص بك : 
+💰 ⭐: حصلت على نقطة واحدة 
 
 ▪ايدي الشخص : [$chat_id](tg://user?id=$chat_id)
 ▪عدد نقاطك الان : ".$sales[$ex[1]]['collect'], 
@@ -361,7 +361,7 @@ bot('EditMessageText',[
    bot('sendMessage',[
        'chat_id'=>$chat_id,
        'text'=>"▫️ يجب عليك الإشتراك في قناة البوت أولاً ⚜️؛
-▪️ @VeerBots 
+▪️ @M_u_stafa_100k
 ◼️ إشترك في القناة ثم أرسل /start ، 📛",
        'reply_to_message_id'=>$message->message_id,
 'reply_markup'=>json_encode([
@@ -523,7 +523,7 @@ bot('EditMessageText',[
     } else {
      bot('answercallbackquery',[
       'callback_query_id' => $update->callback_query->id,
-      'text'=>'- ليس لديك نقاط كافيه للشراء ، 📛',
+      'text'=>'-   اجمع نقاط+ليس لديك نقاط كافيه للشراء ، 📛',
       'show_alert'=>true
      ]);
     }
@@ -592,13 +592,13 @@ bot( sendMessage ,[
 ]);
 }
 /*
----------------{@ABoTaim}------------
+---------------{@ACM_105}------------
 
 ~ تغير حقوق تدل على علامة فشلك :)
 
-• By : @ABoTaim
-• Ch : @Watan_e
-• Tw : @AboTaim_SYBot
+• By : @ACM_105
+• Ch : @ACM_105
+• Tw : @ACM_105
 
----------------{@ABoTaim}------------
+---------------{@ACM_105}------------
 */
